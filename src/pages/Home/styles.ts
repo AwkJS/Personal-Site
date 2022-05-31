@@ -94,7 +94,7 @@ export const TimelineContainer = styled.div`
 
     display: flex;
     flex-direction: row;
-    height: 900px;
+    height: 750px;
     margin: 50px;
 
 
@@ -164,5 +164,113 @@ export const Line = styled.hr`
     height: 200px;
     margin-left: 47px;
     background-color: white;
+
+`
+
+export const ProjectsContainer = styled.div`
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+
+`
+
+export const Title = styled.h2`
+
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    color: #FFFFFF;
+
+`
+
+export const RowContainer = styled.div`
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+`
+
+export const Icon = styled.img`
+
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+
+
+`
+
+export const ProjectCard = styled.div`
+
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+    background: rgba(48, 48, 48, 0.45);
+    margin: 50px;
+
+`
+
+export const ProjectInfo = styled.div`
+
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 100px;
+    background: #282828;
+    margin-top: 130px;
+    border-radius: 20px 20px 0px 0px;
+    justify-content: left;
+
+
+`
+
+export const ProjectTitle = styled.h3`
+
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 15px 0px 0px 15px;
+
+
+`
+
+export const ProjectGithub = styled.a`
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 15px;
+    color: #7F5AF0;
+    margin: 0px 0px 0px 15px;
+
+`
+
+export const TechContainer = styled.div`
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+
+
+`
+
+export const TechCard = styled.div`
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 86px;
+    height: 86px;
+    margin: 15px;
+    background: #282828;
 
 `
